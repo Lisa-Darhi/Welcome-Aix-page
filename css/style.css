@@ -1,0 +1,78 @@
+ @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&family=Titillium+Web");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+#first{
+	text-align: center;
+}
+
+body{
+	background-color: #e6e6e6;
+	font-family: 'Titillium Web', sans-serif;
+	color: #92817a;
+	font-size: 18px;
+	margin: 10px auto;
+}
+
+h1 {
+	font-family: 'Source Sans Pro';
+	font-weight: bold; 
+	letter-spacing: 5px;
+	font-size: 60px; 
+}
+
+h2{
+	font-weight: lighter;
+
+}
+
+h3 {
+	color: #532e1c;
+	letter-spacing: 8x;
+	font-size: 30px; 
+	font-weight: lighter;
+
+}
+
+img{
+	height: 150px;
+	width: 200px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px;
+}
+
+
+a{
+	text-decoration: none;
+	color: #92817a;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#logo {
+	font-size: 30px;
+
+}	
+
+ 
+
+
